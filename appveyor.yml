@@ -3,7 +3,6 @@ branches:
   only:
   - develop
   - master
-  - feature/code_cleanup
 max_jobs: 4  
 configuration:
 - Release
