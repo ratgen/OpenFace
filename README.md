@@ -1,4 +1,4 @@
-# OpenFace 2.1.0: an open source facial behavior analysis toolkit
+# OpenFace 2.2.0: an open source facial behavior analysis toolkit
 
 [![Build Status](https://travis-ci.org/TadasBaltrusaitis/OpenFace.svg?branch=master)](https://travis-ci.org/TadasBaltrusaitis/OpenFace)
 [![Build status](https://ci.appveyor.com/api/projects/status/8msiklxfbhlnsmxp/branch/master?svg=true)](https://ci.appveyor.com/project/TadasBaltrusaitis/openface/branch/master)
@@ -91,6 +91,6 @@ I did my best to make sure that the code runs out of the box but there are alway
 
 Copyright can be found in the Copyright.txt
 
-You have to respect boost, dlib, OpenBLAS, and OpenCV licenses.
+You have to respect dlib, OpenBLAS, and OpenCV licenses.
 
 Furthermore you have to respect the licenses of the datasets used for model training - https://github.com/TadasBaltrusaitis/OpenFace/wiki/Datasets
