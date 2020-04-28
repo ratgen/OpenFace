@@ -81,7 +81,7 @@ _IEEE International Conference on Automatic Face and Gesture Recognition_, 2015
 
 # Commercial license
 
-For inquiries about the commercial licensing of the OpenFace toolkit please visit https://www.flintbox.com/public/project/50632/
+For inquiries about the commercial licensing of the OpenFace toolkit please visit https://cmu.flintbox.com/#technologies/5c5e7fee-6a24-467b-bb5f-eb2f72119e59
 
 # Final remarks
 
