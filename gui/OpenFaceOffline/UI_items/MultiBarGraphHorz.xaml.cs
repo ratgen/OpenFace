@@ -70,6 +70,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace OpenFaceOffline
 {
@@ -116,6 +117,10 @@ namespace OpenFaceOffline
 
         public void Update(Dictionary<String, double> data)
         {
+            foreach (KeyValuePair<String, double> kvp in data)
+            {
+                Debug.WriteLine(kvp.Key + " " + kvp.Value);
+            }
             // Create new bars if necessary
             if (num_bars != data.Count)
             {

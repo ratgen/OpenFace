@@ -1,0 +1,13 @@
+networks:
+  default:
+    external: true
+    name: nat
+services:
+  auapi:
+    build:
+      context: C:\Users\peter\Documents\OpenFace\api\AUApi
+      dockerfile: Dockerfile
+    image: auapi
+    ports:
+    - target: 80
+version: '3.4'
