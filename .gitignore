@@ -103,5 +103,7 @@ lib/3rdParty/CameraEnumerator/Debug/
 lib/local/CppInerop/Debug/
 *.user
 
+**/opencv_world*
+
 # IDE-generated folders
 .idea

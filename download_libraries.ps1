@@ -22,9 +22,9 @@ if(!([System.IO.File]::Exists( (Join-Path (Get-Location) $destination) )))
 }
 
 # Release x64 dll
-$destination = "lib/3rdParty/OpenCV/x64/v141/bin/Release/opencv_world410.dll"
+$destination = "lib/3rdParty/OpenCV/x64/v143/bin/Release/opencv_world410.dll"
 
-$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x64/v141/bin/Release"
+$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x64/v143/bin/Release"
 if(!(Test-Path $out_dir))
 {
 	New-Item -ItemType directory -Path $out_dir
@@ -43,9 +43,9 @@ if(!([System.IO.File]::Exists( (Join-Path (Get-Location) $destination) )))
 }
 
 # Debug x64 dll
-$destination = "lib/3rdParty/OpenCV/x64/v141/bin/Debug/opencv_world410d.dll"
+$destination = "lib/3rdParty/OpenCV/x64/v143/bin/Debug/opencv_world410d.dll"
 
-$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x64/v141/bin/Debug"
+$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x64/v143/bin/Debug"
 if(!(Test-Path $out_dir))
 {
 	New-Item -ItemType directory -Path $out_dir
@@ -85,9 +85,9 @@ if(!([System.IO.File]::Exists( (Join-Path (Get-Location) $destination) )))
 }
 
 # Release x32 dll
-$destination = "lib/3rdParty/OpenCV/x86/v141/bin/Release/opencv_world410.dll"
+$destination = "lib/3rdParty/OpenCV/x86/v143/bin/Release/opencv_world410.dll"
 
-$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x86/v141/bin/Release"
+$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x86/v143/bin/Release"
 if(!(Test-Path $out_dir))
 {
 	New-Item -ItemType directory -Path $out_dir
@@ -106,9 +106,9 @@ if(!([System.IO.File]::Exists( (Join-Path (Get-Location) $destination) )))
 }
 
 # Debug x32 dll
-$destination = "lib/3rdParty/OpenCV/x86/v141/bin/Debug/opencv_world410d.dll"
+$destination = "lib/3rdParty/OpenCV/x86/v143/bin/Debug/opencv_world410d.dll"
 
-$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x86/v141/bin/Debug"
+$out_dir = Join-Path (Get-Location) "lib/3rdParty/OpenCV/x86/v143/bin/Debug"
 if(!(Test-Path $out_dir))
 {
 	New-Item -ItemType directory -Path $out_dir
