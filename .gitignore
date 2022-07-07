@@ -105,5 +105,8 @@ lib/local/CppInerop/Debug/
 
 **/opencv_world*
 
+
 # IDE-generated folders
 .idea
+.vs
+
