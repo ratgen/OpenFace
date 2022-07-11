@@ -25,3 +25,6 @@ C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\net6.0\refint\AuApi.dll
 C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\net6.0\AuApi.pdb
 C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\net6.0\AuApi.genruntimeconfig.cache
 C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\net6.0\ref\AuApi.dll
+C:\Users\peter\Documents\OpenFace\api\AuApi\bin\Debug\net6.0\AuApi.staticwebassets.runtime.json
+C:\Users\peter\Documents\OpenFace\api\AuApi\bin\Debug\net6.0\CppInerop.dll
+C:\Users\peter\Documents\OpenFace\api\AuApi\bin\Debug\net6.0\CppInerop.pdb

@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "ohqDxCdoFASMjmGvi5hO4puOBpjgucs3E8qjArB9ccc=",
+  "Hash": "WEL8na4pgL1bpR/1icF3ffIr+B7VjjFSKZv1b1l00dY=",
   "Source": "AuApi",
   "BasePath": "_content/AuApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AuApi\\wwwroot",
+      "Source": "AuApi",
+      "ContentRoot": "C:\\Users\\peter\\Documents\\OpenFace\\api\\AuApi\\wwwroot\\",
+      "BasePath": "_content/AuApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\peter\\Documents\\OpenFace\\api\\AuApi\\wwwroot\\index.html",
+      "SourceId": "AuApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\peter\\Documents\\OpenFace\\api\\AuApi\\wwwroot\\",
+      "BasePath": "_content/AuApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
 }

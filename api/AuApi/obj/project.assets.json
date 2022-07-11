@@ -79,6 +79,78 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CameraEnumerator/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CameraEnumerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CameraEnumerator.dll": {}
+        }
+      },
+      "CppInerop/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CameraEnumerator": "1.0.0",
+          "FaceAnalyser": "1.0.0",
+          "GazeAnalyser": "1.0.0",
+          "LandmarkDetector": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CppInerop.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CppInerop.dll": {}
+        }
+      },
+      "FaceAnalyser/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "LandmarkDetector": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FaceAnalyser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FaceAnalyser.dll": {}
+        }
+      },
+      "GazeAnalyser/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "LandmarkDetector": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GazeAnalyser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GazeAnalyser.dll": {}
+        }
+      },
+      "LandmarkDetector/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LandmarkDetector.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LandmarkDetector.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -287,10 +359,41 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CameraEnumerator/1.0.0": {
+      "type": "project",
+      "path": "../../lib/3rdParty/CameraEnumerator/CameraEnumerator.vcxproj",
+      "msbuildProject": "../../lib/3rdParty/CameraEnumerator/CameraEnumerator.vcxproj"
+    },
+    "CppInerop/1.0.0": {
+      "type": "project",
+      "path": "../../lib/local/CppInerop/CppInerop.vcxproj",
+      "msbuildProject": "../../lib/local/CppInerop/CppInerop.vcxproj"
+    },
+    "FaceAnalyser/1.0.0": {
+      "type": "project",
+      "path": "../../lib/local/FaceAnalyser/FaceAnalyser.vcxproj",
+      "msbuildProject": "../../lib/local/FaceAnalyser/FaceAnalyser.vcxproj"
+    },
+    "GazeAnalyser/1.0.0": {
+      "type": "project",
+      "path": "../../lib/local/GazeAnalyser/GazeAnalyser.vcxproj",
+      "msbuildProject": "../../lib/local/GazeAnalyser/GazeAnalyser.vcxproj"
+    },
+    "LandmarkDetector/1.0.0": {
+      "type": "project",
+      "path": "../../lib/local/LandmarkDetector/LandmarkDetector.vcxproj",
+      "msbuildProject": "../../lib/local/LandmarkDetector/LandmarkDetector.vcxproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../../lib/local/Utilities/Utilities.vcxproj",
+      "msbuildProject": "../../lib/local/Utilities/Utilities.vcxproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CppInerop >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -321,7 +424,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\peter\\Documents\\OpenFace\\lib\\local\\CppInerop\\CppInerop.vcxproj": {
+              "projectPath": "C:\\Users\\peter\\Documents\\OpenFace\\lib\\local\\CppInerop\\CppInerop.vcxproj"
+            }
+          }
         }
       },
       "warningProperties": {
