@@ -38,6 +38,12 @@
         <button id="sendButton" type="submit" disabled>Send</button>
         <button id="closeButton" disabled>Close Socket</button>
     </div>
+    <p></p>
+    <div>
+        <button id="getMedia">Get media permission</button>
+        <button id="startRecordVideo">Record</button>
+        <button id="stopRecordVideo">Stop recording</button>
+    </div>
 
     <h2>Communication Log</h2>
     <table style="width: 800px">
@@ -163,6 +169,46 @@
                 .replace(/</g, '&lt;')
                 .replace(/>/g, '&gt;');
         }
+
+        let getPermission = document.getElementById("getMedia");
+        let startRecord = document.getElementById("startRecordVideo")
+        let stopRecord = document.getElementById("stopRecordVideo")
+        let rec;
+
+        getPermission.onclick = async () => {
+            // Get user permission to use video media
+            let media = await navigator.mediaDevices.getUserMedia({ video: true })
+            rec = new MediaRecorder(media);
+
+            rec.ondataavailable = (e) => {
+                console.log(e.data)
+                if (socket.readyState == WebSocket.OPEN) {
+                    socket.send(e.data)
+                    var data = sendMessage.value;
+                    commsLog.innerHTML += '<tr>' +
+                        '<td class="commslog-client">Client</td>' +
+                        '<td class="commslog-server">Server</td>' +
+                        '<td class="commslog-data">' + htmlEscape(data) + '</td></tr>';
+                }
+            }
+        }
+
+        startRecord.onclick = () => {
+            let timesplit = 75
+            rec.start(timesplit)
+            console.log("started recording")
+        }
+
+        stopRecord.onclick = () => {
+            rec.stop()
+            console.log("stopped recording")
+        }
+
+        
+
+        
+
+
     </script>
 </body>
 </html>
