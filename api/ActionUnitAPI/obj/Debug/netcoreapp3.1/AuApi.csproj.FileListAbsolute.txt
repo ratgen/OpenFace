@@ -1,0 +1,7 @@
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.csproj.AssemblyReference.cache
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.AssemblyInfoInputs.cache
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.AssemblyInfo.cs
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.csproj.CoreCompileInputs.cache
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\peter\Documents\OpenFace\api\AuApi\obj\Debug\netcoreapp3.1\AuApi.MvcApplicationPartsAssemblyInfo.cache

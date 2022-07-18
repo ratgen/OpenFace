@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "qMEuyxNoY7pOOJrSfF1NSThfJn+ICiCRkwxAfGOETpQ=",
+  "Source": "ActionUnitAPI",
+  "BasePath": "_content/ActionUnitAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ActionUnitAPI\\wwwroot",
+      "Source": "ActionUnitAPI",
+      "ContentRoot": "C:\\Users\\peter\\Documents\\OpenFace\\api\\ActionUnitAPI\\wwwroot\\",
+      "BasePath": "_content/ActionUnitAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\peter\\Documents\\OpenFace\\api\\ActionUnitAPI\\wwwroot\\index.html",
+      "SourceId": "ActionUnitAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\peter\\Documents\\OpenFace\\api\\ActionUnitAPI\\wwwroot\\",
+      "BasePath": "_content/ActionUnitAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
